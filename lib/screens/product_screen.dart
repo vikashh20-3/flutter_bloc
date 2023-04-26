@@ -47,6 +47,8 @@ class _ProductScreenState extends State<ProductScreen> {
         return SizedBox();
       }),
       // );
+
+      //THIS IS THE USE OF BLOCK LISTENER //HOW TO USE
       // body: BlocListener<ProductsBloc, ProductsState>(
       //   listener: (context, state) {
       //     if (state is ProductsLoadedState) {
