@@ -12,3 +12,11 @@ class ProductRepo {
     }
   }
 }
+
+// class ImageRepo {
+//   // List<ProductModel> products;
+//   List<ProductModel> allimagelinks
+//       .map((product) => product.imageUrls)
+//       .expand((images) => images)
+//       .toList();
+// }
