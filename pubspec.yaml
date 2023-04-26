@@ -39,6 +39,7 @@ dependencies:
   equatable: ^2.0.5
   http: ^0.13.5
   flutter_bloc: ^8.1.2
+  velocity_x: ^3.6.0
 
 dev_dependencies:
   flutter_test:

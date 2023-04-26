@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 class ProductRepo {
   Future<List<ProductModel>> getProducts() async {
     var response =
-        await http.get(Uri.parse("https://fakestoreapi.com/proucts"));
+        await http.get(Uri.parse("https://fakestoreapi.com/products"));
     if (response.statusCode == 200) {
       return productModelFromJson(response.body);
     } else {
