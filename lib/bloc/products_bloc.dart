@@ -22,7 +22,7 @@ class ProductsBloc extends Bloc<ProductsLoadedEvent, ProductsState> {
     });
   }
 }
-
+//THIS IS THE METHOD WITHOUT MAKINGE THE REPO
 // class ProductsBloc extends Bloc<ProductsLoadedEvent, ProductsState> {
 //   final ProductRepo productRepo;
 //   ProductsBloc() : super(ProductsLoadingState()) {
